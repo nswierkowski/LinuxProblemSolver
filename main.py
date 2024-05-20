@@ -1,4 +1,5 @@
 from linux_engine import LinuxProblemSolverEngine
+from data_cleaner.cleaner import prepare_data
 
 program_name_str = """
   _      _                    _____           _     _                   _____       _                
@@ -16,10 +17,10 @@ def print_menu():
     print("---------------------------------------------------------------------------------------------------------")
     print("| Description | A simple semantic web for analyzing and troubleshooting the Linux Fedora issues         |")
     print("---------------------------------------------------------------------------------------------------------")
-    print("| Source      | https://discussion.fedoraproject.org/t/this-is-a-list-of-commonly-asked-questions/76986 |")
+    print("| Source      | https://pagure.io/fedora-docs/quick-docs.git                                            |")
     print("---------------------------------------------------------------------------------------------------------")
     print('| Author      | Nikodem "Starsky" Swierkowski                                                           |')
-    print("-------------------------------------------------------------------------------------------------------\n")
+    print("---------------------------------------------------------------------------------------------------------\n")
 
     engine = LinuxProblemSolverEngine()
     engine.reset()

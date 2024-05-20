@@ -1,0 +1,9 @@
+asarPy==1.0.1
+click==8.1.7
+experta==1.9.4
+frozendict==2.4.4
+joblib==1.4.2
+nltk==3.8.1
+regex==2024.5.15
+schema==0.6.7
+tqdm==4.66.4

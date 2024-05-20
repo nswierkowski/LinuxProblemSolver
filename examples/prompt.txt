@@ -1,0 +1,22 @@
+# Perfectly clean input
+accessibility why choose fedora easy to install
+
+# Input without header
+accessibility why choose fedora 
+
+# Input without problem
+accessibility easy to install
+
+# Input without category
+Why should I choose fedora? Is it easy to install?
+
+# Input without anything 
+segfault error after typing into chroot
+
+# Input only with header
+learn and improve
+
+# More advanced text
+Can you tell me how to resolve issues for workstation and player in vmware because I do not even know what is it?
+
+How to use nested virtualization in kvm and test it?

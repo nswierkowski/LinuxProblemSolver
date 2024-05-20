@@ -1,26 +1,23 @@
-from experta import Fact
+from experta import Fact, Field
+from typing import Dict, List
+from nlp_related_files.prepare_keys_tokens import MatchProblemTextPercentage, UserInputHandler
+
+class Category(Fact):
+    category_to_problems = Field(dict, mandatory=True)
+    pass
+
+class Problem(Fact):
+    problem_to_headers = Field(dict, mandatory=True)
+    pass
 
 class UserProblemCategory(Fact):
+    category = Field(str, mandatory=True)
     pass
 
 class UserProblemTopic(Fact):
+    topic = Field(str, mandatory=True)
     pass
 
-class UserSubProblemTopic(Fact):
-    pass
-
-class Tag(Fact):
-    """The area that relates to error"""
-    pass
-
-class Error(Fact):
-    """The occured error"""
-    pass
-
-class Command(Fact):
-    """Command connected with error"""
-    pass
-
-class User(Fact):
-    """User which make an error (root or default user)"""
+class UserTopicsHeader(Fact):
+    header = Field(str, mandatory=True)
     pass

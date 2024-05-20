@@ -53,3 +53,4 @@ class VMwareWhatIsIt(Enum):
 
 # class ExcludingPackagesFromTransactions(Enum):
 
+MIN_ACCEPTABLE_PERCENTAGE_MATCH_PROBLEM_INPUT: float = 0.5
